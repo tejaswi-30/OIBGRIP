@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: unset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    font-weight: 800;
+    background-image: linear-gradient(50deg, aquamarine, pink);
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.cal {
+    height: 500px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 55px;
+    box-shadow: inset -5px -5px 12px black, 5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(6, 68px);
+}
+
+input {
+    grid-column: span 6;
+    height: 50px;
+    width: 350px;
+    background-color: pink;
+    box-shadow: inset -5px -5px 12px black, 5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-color: whitesmoke;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    background-color: pink;
+    box-shadow: inset -5px -5px 12px black, 5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 25px;
+    margin: 8px;
+    font-size: 16px;
+}
+
+.equal {
+    width: 60px;
+    border-radius: 25px;
+    box-shadow: inset-5px -5px 12px black, 5px 5px 12px rgba(0, 0, 0, .16);
+}
